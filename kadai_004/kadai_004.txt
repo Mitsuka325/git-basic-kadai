@@ -1,0 +1,27 @@
+Microsoft Windows [Version 10.0.22621.1848]
+(c) Microsoft Corporation. All rights reserved.
+
+
+C:\Users\owner\TEST>cd C:\Users\owner\TEST\git_challenge
+
+C:\Users\owner\TEST\git_challenge>git init
+Initialized empty Git repository in C:/Users/owner/TEST/git_challenge/.git/
+
+C:\Users\owner\TEST\git_challenge>git add hello_world.txt
+
+C:\Users\owner\TEST\git_challenge>　git commit -m "コミット１"
+[main (root-commit) 7237d67] コミット１
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+C:\Users\owner\TEST\git_challenge>git add hello_world.txt
+
+C:\Users\owner\TEST\git_challenge> git commit -m "コミット２"
+[main 6f21c55] コミット２
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+C:\Users\owner\TEST\git_challenge> git log --oneline
+6f21c55 (HEAD -> main) コミット２
+7237d67 コミット１
+
+C:\Users\owner\TEST\git_challenge>
